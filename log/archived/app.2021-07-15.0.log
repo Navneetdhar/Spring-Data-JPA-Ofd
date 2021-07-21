@@ -1,0 +1,2697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 17:36:16 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 17:36:17 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">1570</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1602</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Starting SpringDataJpaOfdProjectApplication using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 23404 (E:\Spring-boot\spring-data-jpa-ofd-project\target\classes started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">1602</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1603</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1735</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="Message">Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1735</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="Message">For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3449</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3513</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5537</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="Message">Tomcat initialized with port(s): 8080 (http)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5549</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5550</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardService</td>
+<td class="Message">Starting service [Tomcat]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5550</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardEngine</td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.48]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5641</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ofd]</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5642</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 3906 ms</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5964</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">6116</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">6345</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">6460</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">6755</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">6804</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">8093</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">8104</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="warn even">
+<td class="RelativeTime">9471</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">WARN</td>
+<td class="Logger">org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration</td>
+<td class="Message">spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">9801</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver</td>
+<td class="Message">Exposing 1 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">10160</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer</td>
+<td class="Message">LiveReload server is running on port 35729</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">10489</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">10524</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="Message">Tomcat started on port(s): 8080 (http) with context path &#39;/ofd&#39;</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">10885</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Started SpringDataJpaOfdProjectApplication in 10.141 seconds (JVM running for 11.485)</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">15396</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ofd]</td>
+<td class="Message">Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">15396</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.web.servlet.DispatcherServlet</td>
+<td class="Message">Initializing Servlet &#39;dispatcherServlet&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">15398</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.web.servlet.DispatcherServlet</td>
+<td class="Message">Completed initialization in 2 ms</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">39165</td>
+<td class="Thread">http-nio-8080-exec-8</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Enter: com.sapient.ofd.controller.OfdController.findRestaurants() with argument[s] = []</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">39176</td>
+<td class="Thread">http-nio-8080-exec-8</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Enter: com.sapient.ofd.service.RestaurantServiceImpl.findRestaurants() with argument[s] = []</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">39271</td>
+<td class="Thread">http-nio-8080-exec-8</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Exit: com.sapient.ofd.service.RestaurantServiceImpl.findRestaurants() with result = [Restaurant [restaurantId=2, restaurantName=Taj Hotels, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=3, address=Hyderabad, contactNumber=9878987980], Restaurant [restaurantId=4, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=5, address=null, contactNumber=9878987980], Restaurant [restaurantId=5, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=4, address=null, contactNumber=9878987980], Restaurant [restaurantId=8, restaurantName=Kasturi Hotels, restaurantType=Continental, openingTime=10:00, closingTime=21:30, rating=4, address=Kolkata, contactNumber=9878987980], Restaurant [restaurantId=9, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980], Restaurant [restaurantId=6, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980]]</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">39292</td>
+<td class="Thread">http-nio-8080-exec-8</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Exit: com.sapient.ofd.controller.OfdController.findRestaurants() with result = &lt;200 OK OK,[Restaurant [restaurantId=2, restaurantName=Taj Hotels, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=3, address=Hyderabad, contactNumber=9878987980], Restaurant [restaurantId=4, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=5, address=null, contactNumber=9878987980], Restaurant [restaurantId=5, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=4, address=null, contactNumber=9878987980], Restaurant [restaurantId=8, restaurantName=Kasturi Hotels, restaurantType=Continental, openingTime=10:00, closingTime=21:30, rating=4, address=Kolkata, contactNumber=9878987980], Restaurant [restaurantId=9, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980], Restaurant [restaurantId=6, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980]],[]&gt;</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">41718</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Enter: com.sapient.ofd.controller.OfdController.findRestaurants() with argument[s] = []</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">41719</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Enter: com.sapient.ofd.service.RestaurantServiceImpl.findRestaurants() with argument[s] = []</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">41722</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Exit: com.sapient.ofd.service.RestaurantServiceImpl.findRestaurants() with result = [Restaurant [restaurantId=2, restaurantName=Taj Hotels, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=3, address=Hyderabad, contactNumber=9878987980], Restaurant [restaurantId=4, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=5, address=null, contactNumber=9878987980], Restaurant [restaurantId=5, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=4, address=null, contactNumber=9878987980], Restaurant [restaurantId=8, restaurantName=Kasturi Hotels, restaurantType=Continental, openingTime=10:00, closingTime=21:30, rating=4, address=Kolkata, contactNumber=9878987980], Restaurant [restaurantId=9, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980], Restaurant [restaurantId=6, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980]]</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">41723</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.aspect.LoggingAspect</td>
+<td class="Message">Exit: com.sapient.ofd.controller.OfdController.findRestaurants() with result = &lt;200 OK OK,[Restaurant [restaurantId=2, restaurantName=Taj Hotels, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=3, address=Hyderabad, contactNumber=9878987980], Restaurant [restaurantId=4, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=5, address=null, contactNumber=9878987980], Restaurant [restaurantId=5, restaurantName=, restaurantType=Continental, openingTime=08:00, closingTime=22:30, rating=4, address=null, contactNumber=9878987980], Restaurant [restaurantId=8, restaurantName=Kasturi Hotels, restaurantType=Continental, openingTime=10:00, closingTime=21:30, rating=4, address=Kolkata, contactNumber=9878987980], Restaurant [restaurantId=9, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980], Restaurant [restaurantId=6, restaurantName=Fat Belly, restaurantType=Continental, openingTime=10:00, closingTime=20:30, rating=5, address=Guwahati, contactNumber=9878987980]],[]&gt;</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:16:29 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">259</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">370</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">394</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e14c16d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c989952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@784b990c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d3ba765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bc0606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d1659ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@793138bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1951b871, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c18016b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@33aeca0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba302e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e98770d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ae67cad]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:16:30 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">900</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">917</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 18624 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">918</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">921</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1838</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1888</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2482</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2531</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2639</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2984</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3219</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3248</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4077</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4085</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5213</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.765 seconds (JVM running for 5.895)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5239</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@18d14de3 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@469bd719, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@15405ba1 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@f6e3b67 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@464abed]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5415</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@18d14de3 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@469bd719, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@15405ba1 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@f6e3b67 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5436</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5440</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5453</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:18:05 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:18:05 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">760</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">769</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Starting SpringDataJpaOfdProjectApplication using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 19468 (E:\Spring-boot\spring-data-jpa-ofd-project\target\classes started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">769</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">770</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">846</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="Message">Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">846</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor</td>
+<td class="Message">For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1790</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1827</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3318</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="Message">Tomcat initialized with port(s): 8080 (http)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3330</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3331</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardService</td>
+<td class="Message">Starting service [Tomcat]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3331</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.StandardEngine</td>
+<td class="Message">Starting Servlet engine: [Apache Tomcat/9.0.48]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3430</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/ofd]</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3430</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 2583 ms</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3730</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3773</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3887</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3985</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4234</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4275</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5347</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5362</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="warn even">
+<td class="RelativeTime">6279</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">WARN</td>
+<td class="Logger">org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration</td>
+<td class="Message">spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">6488</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver</td>
+<td class="Message">Exposing 1 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">6726</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer</td>
+<td class="Message">LiveReload server is running on port 35729</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">7057</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.apache.coyote.http11.Http11NioProtocol</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">7084</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.web.embedded.tomcat.TomcatWebServer</td>
+<td class="Message">Tomcat started on port(s): 8080 (http) with context path &#39;/ofd&#39;</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">7384</td>
+<td class="Thread">restartedMain</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.app.SpringDataJpaOfdProjectApplication</td>
+<td class="Message">Started SpringDataJpaOfdProjectApplication in 7.004 seconds (JVM running for 7.646)</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:18:45 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">243</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">363</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">384</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e14c16d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c989952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@784b990c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d3ba765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bc0606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d1659ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@793138bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1951b871, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c18016b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@33aeca0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba302e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e98770d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ae67cad]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:18:46 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">1019</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1039</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 21356 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">1040</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1042</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1840</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1895</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2420</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2480</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2623</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2902</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3105</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3136</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3977</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3985</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5081</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.639 seconds (JVM running for 5.795)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5106</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@e76134d testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@2a317af7, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7b38db21 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@54f4734e key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@60688a97]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5231</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@e76134d testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@2a317af7, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@7b38db21 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@54f4734e key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5250</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5253</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5265</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:23:48 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">254</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">363</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">381</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e14c16d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c989952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@784b990c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d3ba765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bc0606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d1659ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@793138bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1951b871, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c18016b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@33aeca0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba302e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e98770d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ae67cad]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:23:49 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">883</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">906</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 15036 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">907</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">909</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1738</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1786</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2366</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2422</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2565</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2853</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3082</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3117</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3865</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3873</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5079</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.633 seconds (JVM running for 5.768)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5101</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@3c65f2e1 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@c247b02, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@78f1d29 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@76c85485 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1cd2e348]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5224</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@3c65f2e1 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@c247b02, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@78f1d29 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@76c85485 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5243</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5245</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5254</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:25:18 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">292</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">413</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">438</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e14c16d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c989952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@784b990c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d3ba765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bc0606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d1659ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@793138bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1951b871, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c18016b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@33aeca0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba302e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e98770d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ae67cad]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:25:19 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">938</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">952</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 22588 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">953</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">956</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1784</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1832</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2442</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2491</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2607</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2884</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3068</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3107</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3835</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3842</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5051</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.553 seconds (JVM running for 5.917)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5079</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@76c85485 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@65294247, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4a7ac98b testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@35e3f3b8 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@73bcd9b4]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5182</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@76c85485 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@65294247, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@4a7ac98b testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@35e3f3b8 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5202</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5205</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5217</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:31:59 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">241</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">364</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">383</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e14c16d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3c989952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@784b990c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d3ba765, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bc0606, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d1659ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@793138bd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1951b871, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c18016b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@33aeca0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43aaf813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@57ac5227, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ba302e0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e98770d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1ae67cad]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:32:00 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">884</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">916</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 22388 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">917</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">920</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1717</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1765</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2328</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2377</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2505</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2823</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3039</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3067</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3797</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3804</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4892</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.448 seconds (JVM running for 5.558)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4918</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@4be1c797 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@76bdfc19, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1248f83 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@5c28009f key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1b984ba5]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5047</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@4be1c797 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@76bdfc19, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@1248f83 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@5c28009f key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5096</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5101</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5110</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:38:38 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">278</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">392</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">410</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ba302e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e98770d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ae67cad, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f6e28bc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c098bb3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31e4bb20, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18cebaa5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@463b4ac8, org.springframework.test.context.event.EventPublishingTestExecutionListener@765f05af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62f68dff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f001896, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@13f17eb4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d0d6318, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4bc28c33, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4409e975]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:38:39 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">879</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">893</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 23404 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">895</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">898</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1734</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1787</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2424</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2490</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2653</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2952</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3199</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3227</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4002</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4011</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5143</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.675 seconds (JVM running for 5.856)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5178</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@116efe65 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@118879d2, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1239c268 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@4bec6682 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@5089a72b]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5341</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@116efe65 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@118879d2, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@1239c268 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@4bec6682 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5365</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">5374</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">5392</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:39:31 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">242</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.support.AbstractContextLoader</td>
+<td class="Message">Could not detect default resource locations for test class [com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">360</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">384</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper</td>
+<td class="Message">Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ba302e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e98770d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ae67cad, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f6e28bc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c098bb3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31e4bb20, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18cebaa5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@463b4ac8, org.springframework.test.context.event.EventPublishingTestExecutionListener@765f05af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62f68dff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@f001896, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@13f17eb4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1d0d6318, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4bc28c33, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4409e975]</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Jul 15 21:39:32 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="RelativeTime">874</td>
+<td class="Thread">background-preinit</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.validator.internal.util.Version</td>
+<td class="Message">HV000001: Hibernate Validator 6.2.0.Final</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">892</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Starting OnlineFoodDeliveryRepositoryIntegrationTest using Java 11.0.10 on LAPTOP-K5Q3CS7H with PID 22932 (started by hp in E:\Spring-boot\spring-data-jpa-ofd-project)</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">893</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Running with Spring Boot v2.5.2, Spring v5.3.8</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">896</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">No active profile set, falling back to default profiles: default</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">1592</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Bootstrapping Spring Data JPA repositories in DEFAULT mode.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">1633</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.data.repository.config.RepositoryConfigurationDelegate</td>
+<td class="Message">Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2225</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.jpa.internal.util.LogHelper</td>
+<td class="Message">HHH000204: Processing PersistenceUnitInfo [name: default]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2267</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.Version</td>
+<td class="Message">HHH000412: Hibernate ORM core version 5.4.32.Final</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2370</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.annotations.common.Version</td>
+<td class="Message">HCANN000001: Hibernate Commons Annotations {5.1.2.Final}</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2624</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Starting...</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">2792</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Start completed.</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">2817</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.dialect.Dialect</td>
+<td class="Message">HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">3548</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator</td>
+<td class="Message">HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">3556</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4561</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest</td>
+<td class="Message">Started OnlineFoodDeliveryRepositoryIntegrationTest in 4.118 seconds (JVM running for 5.397)</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4587</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Began transaction (1) for test context [DefaultTestContext@8de4206 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@10f384a2, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@57fae911 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@52a0bc48 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1a1e38ab]; rollback [true]</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4728</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.test.context.transaction.TransactionContext</td>
+<td class="Message">Rolled back transaction for test: [DefaultTestContext@8de4206 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, testInstance = com.sapient.ofd.dao.OnlineFoodDeliveryRepositoryIntegrationTest@10f384a2, testMethod = whenFindById_thenReturnRestaurant@OnlineFoodDeliveryRepositoryIntegrationTest, testException = javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.sapient.ofd.entity.Restaurant, mergedContextConfiguration = [MergedContextConfiguration@57fae911 testClass = OnlineFoodDeliveryRepositoryIntegrationTest, locations = &#39;{}&#39;, classes = &#39;{class com.sapient.ofd.app.SpringDataJpaOfdProjectApplication}&#39;, contextInitializerClasses = &#39;[]&#39;, activeProfiles = &#39;{}&#39;, propertySourceLocations = &#39;{}&#39;, propertySourceProperties = &#39;{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}&#39;, contextCustomizers = set[[ImportsContextCustomizer@52a0bc48 key = [org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@623e088f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2fc6f97f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@cd1d761, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@758705fa, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@26f63694, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6d23017e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = &#39;org.springframework.boot.test.context.SpringBootContextLoader&#39;, parent = [null]], attributes = map[&#39;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&#39; -&gt; false]]</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4753</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean</td>
+<td class="Message">Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">4757</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown initiated...</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">4770</td>
+<td class="Thread">SpringApplicationShutdownHook</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">com.zaxxer.hikari.HikariDataSource</td>
+<td class="Message">HikariPool-1 - Shutdown completed.</td>
+</tr>
+</table>
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Fri Jul 16 08:43:17 IST 2021</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+</table>
+</body></html>
